@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+  
+    .tags {
+      flex-direction: row;
+      margin-bottom: 50px;
+    }
+  
+    .listas {
+        display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+  
+    .listas div ul {
+      padding-left: 20px;
+    }
+
+    footer .informacao{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .info, .contactos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .contactos{
+        align-items: center;
+    }
+}
+
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    .tags {
+      margin-bottom: 50px;
+    }
+  
+    .listas {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    footer .informacao {
+      flex-direction: row;
+    }
+  
+    .info, .contactos {
+      flex-direction: row;
+      text-align: center;
+    }
+}
+
+  @media only screen and (min-width: 901px) and (max-width: 1200px) {
+  
+    .tags {
+      margin-bottom: 50px;
+    }
+  
+    .listas {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    footer .informacao {
+      flex-direction: row;
+    }
+}
+
+  @media only screen and (min-width: 1201px) {
+  
+    .tags {
+      margin-bottom: 50px;
+    }
+  
+    .listas {
+      flex-direction: row;
+      gap: 50px;
+      justify-content: space-around;
+    }
+  
+    footer .informacao {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+}
+  

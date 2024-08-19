@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    footer .informacao{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .info, .contactos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .contactos{
+        align-items: center;
+    }
+}

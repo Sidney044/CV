@@ -1,0 +1,80 @@
+.credenciais{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    background-color: rgb(23, 23, 49);
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.credenciais button{
+    width: 25%;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[type=text]{
+    width: 70%;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+
+@media only screen and (max-width: 600px){
+    .credenciais{
+        justify-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+   
+    footer .informacao{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .info, .contactos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .contactos{
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .credenciais{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    input[type=text]{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .credenciais{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    input[type=text]{
+        width: 40%;
+    }
+}
